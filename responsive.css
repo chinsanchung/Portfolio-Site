@@ -1,0 +1,83 @@
+/* Is it enough to set 'display: flex' and 'flex-wrap: wrap' only at container class?
+Or Shoud I have to set these to each side(header-side, bottom-side)? */
+/* make flexible of container part */
+
+.bottom-side {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* max-width: 500px */
+@media screen and (max-width: 500px) {
+  /* changing header's font */
+  .name {
+    font-size: 23px;
+  }
+  .subtitle {
+    font-size: 14px;
+  }
+  /* setting Featured Work's font */
+  .bottom-title {
+    font-size: 1.5em;
+  }
+  /* height of Featured Work's image */
+  .work-img {
+    height: 100px;
+  }
+
+}
+
+/* 501 < width < 699 */
+@media screen and (min-width: 501px) and (max-width: 699px) {
+  /* make little empty spaces */
+  main {
+    padding: 4px;
+  }
+  /* changing header's font */
+  .name {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 15px;
+  }
+
+  /* setting Featured Work's font */
+  .bottom-title {
+    /* Which part this em refer to? */
+    font-size: 2em;
+  }
+  .work-li, .work-li, .work-li {
+    width: 32%;
+    height: 40%;
+    display: inline-grid;
+  }
+  .work-img {
+    width: 80%;
+    heigth: auto;
+  }
+}
+
+/* more than width 700 */
+@media screen and (min-width: 700px) {
+  /* fix a main contents to 700 width */
+  main {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* changing header's font */
+  .name {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+  /* setting Featured Work's size */
+  .work-img {
+    width:80%;
+    height: auto;
+  }
+
+  .bottom-title {
+    font-size: 33px;
+  }
+}
