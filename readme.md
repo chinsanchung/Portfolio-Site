@@ -1,4 +1,4 @@
-# portfolio-site with Front-End Web Developer Nanodegree
+# portfolio-site with Udacity
 - It's First project in Front-End Web Developer Nanodegree
 
 ## Tools
