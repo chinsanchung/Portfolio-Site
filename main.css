@@ -1,0 +1,136 @@
+/* 01. frame setting */
+
+/* body, main setting */
+.container {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  width: 100%;
+}
+main {
+  /* make little empty spaces */
+
+  padding: 4px;
+}
+
+/* setting display block to each side */
+header-side, middle-side, bottom-side {
+ display: block;
+
+}
+
+
+/* 02. header-side CSS */
+
+/* setting main-image's width */
+.main-image {
+  width: 100%;
+  height: auto;
+}
+/* Remove dot from li */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 3px;
+  margin-bottom: 0;
+  display: block;
+}
+
+/* default style of header's name and delete empty spaces from h1 */
+.name {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* default style of header's subtitle */
+.subtitle {
+  margin-top: 1px;
+  margin-bottom: 15px;
+}
+
+/* Locate name, title to right */
+.header-side {
+  text-align: right;
+
+}
+
+/* default style of hr line */
+hr {
+  display: block;
+  width: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 0px;
+  margin-right: 3px;
+  border-width: 2px;
+  border-color: #7d97ad;
+}
+
+
+/* 03. middle-side CSS */
+
+/* default style of main image */
+.main-image {
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+
+/* 04. bottom-side CSS */
+
+/* It was very difficult to match li elements on a line. It's hard to me without table tag.
+I'm still cofused by matching element's location correctly, and using margin, border efficiently. */
+
+/* padding with bottom-side */
+.bottom-side {
+  padding: 0em;
+  margin-left: auto;
+}
+
+/* default style of Featured Work's title, url */
+.bottom-title {
+  font-size: 35px;
+  color: #7d97ad;
+  margin: 0;
+}
+.work-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.work-url {
+  font-size: 12px;
+}
+
+/* display Featured Works in a line */
+.work-li {
+  width: 32%;
+  display: inline-grid;
+  text-align: center;
+}
+/* default style of Featured Work's image */
+.work-img {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* set li elements in one line */
+.works-list {
+  flex-grow: 1;
+  clear: both;
+}
+
+.work-li01 {
+  width: 33%
+  display: block;
+}
+.work-li02 {
+  width: 33%
+  display: block;
+}
+.work-li03 {
+  width: 33%
+  display: block;
+}
