@@ -13,4 +13,4 @@
   + Fonts, image size, and main contents's size are flexible.
 
 ## Referance site
-- [W3School] (https://www.w3schools.com/)
+- W3School : https://www.w3schools.com/
