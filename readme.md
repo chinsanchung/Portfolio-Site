@@ -12,5 +12,5 @@
 - Responsive Web design was used in this page. Page changes when screen's size gets bigger.
   + Fonts, image size, and main contents's size are flexible.
 
-## Referance site
+## Reference site
 - W3School : https://www.w3schools.com/
